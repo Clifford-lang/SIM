@@ -1,0 +1,22 @@
+/* src/components/Dashboard/Dashboard.css */
+.dashboard {
+    padding: 20px; /* Padding around the dashboard content */
+}
+
+.metrics {
+    display: flex; /* Use flexbox to layout metrics side by side */
+    justify-content: space-around; /* Space metrics evenly */
+}
+
+.metric {
+    border: 1px solid #ccc; /* Light border for metric boxes */
+    padding: 20px; /* Padding inside metric boxes */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    flex: 1; /* Allow metrics to grow equally */
+    margin: 0 10px; /* Margin between metrics */
+}
+
+.alerts {
+    margin-top: 20px; /* Space above alerts section */
+}

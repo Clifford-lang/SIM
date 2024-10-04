@@ -1,0 +1,48 @@
+/* src/components/EmergencyStockpiling.css */
+
+.emergency-stockpiling {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.emergency-stockpiling h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark color for the header */
+}
+
+.emergency-stockpiling input {
+    margin-right: 10px; /* Space between input fields */
+    padding: 10px; /* Padding for inputs */
+}
+
+.emergency-stockpiling button {
+    background-color: #28a745; /* Green background for add button */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.emergency-stockpiling button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.emergency-stockpiling ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.emergency-stockpiling li {
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between item and delete button */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    margin-bottom: 10px; /* Space between list items */
+    border-radius: 5px; /* Rounded corners for items */
+    background-color: #f9f9f9; /* Light gray background for items */
+}

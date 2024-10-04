@@ -1,0 +1,15 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: #333; /* Dark background */
+    color: white;           /* White text */
+    padding: 1rem;         /* Padding around the text */
+    text-align: center;     /* Center the text */
+    position: fixed;        /* Fix the navbar at the top */
+    width: 100%;           /* Full width */
+    top: 0;                /* Stick to the top */
+    z-index: 1000;         /* Ensure it sits above other elements */
+}
+
+h1 {
+    margin: 0;            /* Remove default margin */
+}

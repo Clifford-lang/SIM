@@ -1,0 +1,37 @@
+/* src/components/ExpiryTracking.css */
+
+.expiry-tracking {
+    padding: 20px;
+}
+
+.expiry-tracking h2 {
+    margin-bottom: 20px;
+}
+
+.expiry-tracking label {
+    margin-right: 10px;
+}
+
+.expiry-tracking input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+    width: 60px; /* Adjust width as needed */
+}
+
+.expiry-tracking button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.expiry-tracking ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.expiry-tracking ul li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background for each item */
+}

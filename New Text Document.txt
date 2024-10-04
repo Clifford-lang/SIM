@@ -1,0 +1,6 @@
+                <input
+                    type="number"
+                    placeholder="Restock Threshold"
+                    value={restockThreshold}
+                    onChange={(e) => setRestockThreshold(e.target.value)}
+                />

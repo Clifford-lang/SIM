@@ -1,0 +1,45 @@
+/* src/components/UserManagement.css */
+
+.user-management {
+    padding: 20px;
+}
+
+.user-management h2 {
+    margin-bottom: 20px;
+}
+
+.user-management form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.user-management input,
+.user-management select {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.user-management button {
+    padding: 10px;
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-management button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.user-management ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-management li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}

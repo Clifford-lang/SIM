@@ -1,0 +1,29 @@
+.settings {
+    padding: 20px;
+}
+
+.settings h2 {
+    margin-bottom: 20px;
+}
+
+.settings form {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings label {
+    margin-bottom: 15px;
+}
+
+.settings button {
+    padding: 10px;
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings button:hover {
+    background-color: #45a049; /* Darker green */
+}

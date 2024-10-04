@@ -1,0 +1,54 @@
+/* src/components/Sidebar/Sidebar.css */
+.sidebar {
+    position: fixed; /* Fix the sidebar position */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 200px; /* Set the width of the sidebar */
+    background-color: #f4f4f4; /* Background color */
+    padding: 15px; /* Padding inside the sidebar */
+    height: 100vh; /* Full height of the viewport */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.sidebar h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.sidebar ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    padding: 10px; /* Space for each list item */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.sidebar ul li:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+/* Add active button style */
+.sidebar ul li.active {
+    background-color: #b3b3b3; /* Different background for active button */
+    color: #fff; /* White text color */
+}
+
+/* Main content adjustment */
+.main-content {
+    margin-left: 220px; /* Space for fixed sidebar */
+    padding: 20px; /* Add padding for the main content */
+    padding-top: 60px; /* Space below the fixed header */
+    background-color: #fff; /* Background color for main content */
+    height: 100vh; /* Optional: Set height for main content */
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
+    width: 100%;
+}
+
+.container {
+    display: flex; /* Align sidebar and main content side by side */
+    height: 100vh; /* Full height of the viewport */
+}

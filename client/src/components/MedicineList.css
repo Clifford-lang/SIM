@@ -1,0 +1,48 @@
+/* src/components/MedicineList.css */
+
+.medicine-list {
+    padding: 20px;
+    background-color: #ffffff; /* White background for the medicine list */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.medicine-list h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark color for the header */
+}
+
+.medicine-list ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.medicine-list li {
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between item and delete button */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    margin-bottom: 10px; /* Space between list items */
+    border-radius: 5px; /* Rounded corners for items */
+    background-color: #f9f9f9; /* Light gray background for items */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.medicine-list li:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
+
+.medicine-list button {
+    background-color: #ff4d4d; /* Red background for delete button */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.medicine-list button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
